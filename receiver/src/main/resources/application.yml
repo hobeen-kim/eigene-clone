@@ -1,0 +1,9 @@
+spring:
+  config:
+    import:
+      - classpath:/application-secret.yml
+
+kinesis:
+  name: logs-apne2
+  region: ap-northeast-2
+
